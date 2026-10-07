@@ -1,0 +1,58 @@
+# ===========================
+# Backend .gitignore (Python / FastAPI)
+# ===========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Uploaded files (runtime data — not for version control)
+uploads/
+
+# Model weights / large binary files
+models/
+
+# Jobs data (runtime state)
+jobs.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
