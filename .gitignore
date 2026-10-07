@@ -30,3 +30,6 @@ build/
 .venv/
 __pycache__/
 *.pyc
+
+# Safe security ignores
+.env.local
